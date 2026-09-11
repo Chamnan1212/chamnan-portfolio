@@ -141,197 +141,152 @@ function App() {
       </section>
 
 
-      {/* Skills */}
-      <section
-        id="skills"
-        className="border-t border-zinc-800"
-      >
-        <div className="max-w-6xl mx-auto px-6 py-24">
+     {/* Projects */}
+<section
+  id="projects"
+  className="border-t border-zinc-800"
+>
+  <div className="max-w-6xl mx-auto px-6 py-24">
 
-          <p className="text-green-400 font-mono text-sm">
-            02 / SKILLS
-          </p>
+    <p className="text-green-400 font-mono text-sm">
+      03 / PROJECTS
+    </p>
 
-          <h2 className="mt-4 text-4xl font-bold">
-            Tech Stack
-          </h2>
+    <h2 className="mt-4 text-4xl font-bold">
+      Selected Projects
+    </h2>
 
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">HTML</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                Web Structure
-              </p>
-            </div>
+      {/* Parking Lot Search */}
+      <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-green-400/50 transition">
 
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">CSS</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                Web Styling
-              </p>
-            </div>
+        <p className="text-sm text-green-400">
+          Academic Project
+        </p>
 
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">JavaScript</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                Programming
-              </p>
-            </div>
+        <h3 className="mt-3 text-2xl font-bold">
+          Parking Lot Search
+        </h3>
 
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">React</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                Frontend
-              </p>
-            </div>
+        <p className="mt-5 text-zinc-400 leading-relaxed">
+          A web application for searching and finding
+          available parking spaces.
+        </p>
 
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">Node.js</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                Backend
-              </p>
-            </div>
+        <div className="mt-6 flex flex-wrap gap-2">
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            Web Application
+          </span>
 
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">MongoDB</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                Database
-              </p>
-            </div>
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            JavaScript
+          </span>
 
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">Git</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                Version Control
-              </p>
-            </div>
-
-            <div className="border border-zinc-800 rounded-xl p-6 hover:border-zinc-600 transition">
-              <h3 className="font-semibold">Tailwind CSS</h3>
-              <p className="mt-2 text-sm text-zinc-500">
-                UI Styling
-              </p>
-            </div>
-
-          </div>
-
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            Database
+          </span>
         </div>
-      </section>
+
+        <a
+          href="https://github.com/supawee07/Parking-Lot-Search"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-8 px-5 py-2.5 bg-white text-black rounded-lg font-semibold text-sm hover:bg-zinc-200 transition"
+        >
+          View Project ↗
+        </a>
+
+      </div>
 
 
-      {/* Projects */}
-      <section
-        id="projects"
-        className="border-t border-zinc-800"
-      >
-        <div className="max-w-6xl mx-auto px-6 py-24">
+      {/* Sleep AI */}
+      <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-green-400/50 transition">
 
-          <p className="text-green-400 font-mono text-sm">
-            03 / PROJECTS
-          </p>
+        <p className="text-sm text-green-400">
+          Academic Project
+        </p>
 
-          <h2 className="mt-4 text-4xl font-bold">
-            Selected Projects
-          </h2>
+        <h3 className="mt-3 text-2xl font-bold">
+          Sleep AI
+        </h3>
 
+        <p className="mt-5 text-zinc-400 leading-relaxed">
+          An AI-based project focused on sleep-related
+          information and user interaction.
+        </p>
 
-          <div className="mt-10 grid md:grid-cols-2 gap-6">
+        <div className="mt-6 flex flex-wrap gap-2">
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            AI
+          </span>
 
-            {/* Project 1 */}
-            <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-zinc-600 transition">
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            Web Application
+          </span>
 
-              <div className="flex items-start justify-between">
-
-                <div>
-                  <p className="text-sm text-green-400">
-                    Academic Project
-                  </p>
-
-                  <h3 className="mt-3 text-2xl font-bold">
-                    Keb Kao
-                  </h3>
-                </div>
-
-                <span className="text-zinc-600 text-2xl">
-                  ↗
-                </span>
-
-              </div>
-
-              <p className="mt-5 text-zinc-400 leading-relaxed">
-                A web application for managing used-item buying,
-                pricing, transactions, and reports.
-              </p>
-
-              <div className="mt-6 flex flex-wrap gap-2">
-
-                <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
-                  React
-                </span>
-
-                <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
-                  Node.js
-                </span>
-
-                <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
-                  MongoDB
-                </span>
-
-              </div>
-
-            </div>
-
-
-            {/* Project 2 */}
-            <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-zinc-600 transition">
-
-              <div className="flex items-start justify-between">
-
-                <div>
-                  <p className="text-sm text-green-400">
-                    Academic Project
-                  </p>
-
-                  <h3 className="mt-3 text-2xl font-bold">
-                    Game Item Marketplace
-                  </h3>
-                </div>
-
-                <span className="text-zinc-600 text-2xl">
-                  ↗
-                </span>
-
-              </div>
-
-              <p className="mt-5 text-zinc-400 leading-relaxed">
-                A marketplace system for browsing, searching,
-                filtering, selling, purchasing, favorites,
-                and transaction history.
-              </p>
-
-              <div className="mt-6 flex flex-wrap gap-2">
-
-                <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
-                  Web Application
-                </span>
-
-                <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
-                  Discord OAuth
-                </span>
-
-                <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
-                  Database
-                </span>
-
-              </div>
-
-            </div>
-
-          </div>
-
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            Database
+          </span>
         </div>
-      </section>
+
+        <a
+          href="https://github.com/supawee07/sleep_ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-8 px-5 py-2.5 bg-white text-black rounded-lg font-semibold text-sm hover:bg-zinc-200 transition"
+        >
+          View Project ↗
+        </a>
+
+      </div>
+
+
+      {/* Keb Kao */}
+      <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-green-400/50 transition">
+
+        <p className="text-sm text-green-400">
+          Academic Project
+        </p>
+
+        <h3 className="mt-3 text-2xl font-bold">
+          Keb Kao
+        </h3>
+
+        <p className="mt-5 text-zinc-400 leading-relaxed">
+          A web application for managing used-item buying,
+          pricing, transactions, and reports.
+        </p>
+
+        <div className="mt-6 flex flex-wrap gap-2">
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            React
+          </span>
+
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            Node.js
+          </span>
+
+          <span className="px-3 py-1 text-xs bg-zinc-900 rounded-full">
+            MongoDB
+          </span>
+        </div>
+
+        <a
+          href="https://github.com/supawee07/KebKao"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-8 px-5 py-2.5 bg-white text-black rounded-lg font-semibold text-sm hover:bg-zinc-200 transition"
+        >
+          View Project ↗
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
       {/* Contact */}
