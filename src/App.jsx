@@ -358,7 +358,7 @@ function App() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:billzzz394@example.com"
               className="px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-zinc-200 transition"
             >
               Email Me
